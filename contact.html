@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>My Website</h1>
+        </header>
+
+        <nav>
+            <b><a href="index.html">Home</a></b>
+            <b><a href="cars.html">My Cars</a></b>
+            <b><a href="contact.html">Contact Me</a></b>
+        </nav>
+
+        <main>
+            <div class="row">
+                <div class="col">
+                    <p class="desc">Here's a form to contact me</p>
+                    <p>Required fields are marked with an asterisk *</p>
+    
+                    <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                        <label for="firstName">* First Name:</label>
+                        <input id="firstName" name="firstName" required>
+                        
+                        <label for="lastName">* Last Name:</label>
+                        <input id="lastName" name="lastName" required>
+                        
+                        <label for="email">* Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">* Message:</label>
+                        <textarea id="message" name="message" rows="3" cols="30" required></textarea>
+                        
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <small>
+                <i>
+                    Copyright &copy; 2023 Ethan Yates<br>
+                    <a href="mailto:ethan@emanmods.com">ethan@emanmods.com</a>
+                </i>
+            </small>
+        </footer>
+    </body>
+</html>
